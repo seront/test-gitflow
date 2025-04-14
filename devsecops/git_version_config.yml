@@ -22,6 +22,7 @@ branches:
   develop:
     mode: ContinuousDelivery
     increment: Minor
+    label: alfalfa
     prevent-increment:
       when-current-commit-tagged: false
     track-merge-target: true
